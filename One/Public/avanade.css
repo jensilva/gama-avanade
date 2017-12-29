@@ -1,0 +1,25 @@
+
+main {
+background-image: url('img\\bg-main.jpg');
+height:375px;
+}
+
+
+#titulom, #submain{
+	padding-top: 50px;
+	font-family: Arial;
+	color:#f7f7f9 ;
+	text-align: center;
+}
+
+#btn-apply-form{
+	float: center;
+}
+
+#info{
+	vertical-align: 
+}
+
+#apply, #test,#selection,#treino{
+	width: 200px;
+}
