@@ -3,78 +3,108 @@
 <head>
 	<title>Avanade Angular Academy by Gama - Simulado #1</title>
 	<meta charset="utf-8">
-	  <meta name="viewport" content="width=device-width, initial-scale=1">
+	 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="avanade.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+
 </head>
 <body>
 	<main role="main" id="main">
-	<div class="container mx-auto">
-	<h1 id="titulom">Dê propósito ao seu código</h1>
-		<h4 id="submain">Cansado de desenvolver projetos sem sentido? Participe do Avanade Angular Academy</h4><br />
+		<div class="container mx-auto">
+			<div class="row col text-center">
+				<h1 id="titulom" class="mx-auto">Dê propósito ao seu código</h1>
+				
+				<h4 id="submain">Cansado de desenvolver projetos sem sentido? Participe do Avanade Angular Academy</h4>
 
-		<a href="#apply-modal"><button class="btn btn-success mx-auto" id="btn-apply-form">Inscreva-se</button></a>
-	
-			<!-- 
-			<div id="apply-modal" class="modal-content modal-sm" role="dialog">
-				<a href="#fechar" title="Fechar" class="close">x</a>
-					<div class="modal-title">
-						<h2>Formulário de Inscrição</h2>
-					</div>
-				<div class="modal-body">
-					<p>Esta é uma simples janela de modal.</p>
-					<p>Você pode fazer qualquer coisa aqui, página de Login, pop-ups, ou formulários</p>
-					</div>
-				</div>
+				
+				<button class="btn btn-success mx-auto" id="btn-apply-form" style="margin-top: 1.1em"><h5>Inscreva-se</h5></button>
 			</div>
-
--->
+		</div>	
 	</main>
 
-	<script>
-	/* var btn = getElementbyID("btn-apply-form");
-	var close = getElementbyID(close);
 
-	 document.onclick(btn);
-	 document.onclick(close); */
-
- 	</script>
-
-	
-	<div id="info" class="container-fluid mx-auto">
-		<div class="row col-xs-1">
-		<div id="apply">
-			<h5>Inscreva-se</h5><br />
+	<div id="info" class="container-fluid row mx-auto">
+		<div id="apply" class="col-sm-12 col-md" >
+			<h5><b>Inscrições</b></h5>
 			<h6>02/Dez a 04/Jan</h6>
 			<p>Para se inscrever, basta preencher o formulário e se preparar para o nosso teste técnico com cursos online e simulados</p>
 		</div>
 
-		<div id="test">
+		<div id="test"  class="col-sm-12 col-md">
 			<h5>Teste técnico</h5><br />
 			<h6>05 e 06/Jan</h6>
 			<p>Em seguida, prove que você está preparado realizando os testes técnicos totalmente mão na massa</p>
 		</div>
 
-		<div id="selection">
+		<div id="selection" class="col-sm-12 col-md">
 			<h5>Seleção e Contratação</h5><br />
 			<h6>07/Jan a 14/Jan</h6>
 			<p>Os melhores candidatos serão entrevistados e contratados pela Avanade</p>	
 		</div>
 
-		<div id="treino">
+		<div id="treino" class="col-sm-12 col-md">
 			<h5>Treinamento</h5><br />
 			<h6>15/Jan a 26/Jan</h6>
 			<p>Serão duas semanas de treinamento super hands-on com os melhores devs do mercado</p>
-			
 		</div>
+	</div>
+
+	<!-- The Modal -->
+	<div class="modal fade" id="myModal">
+		<div class="modal-dialog modal-lg">
+			<div class="modal-content">
+
+				<!-- Modal Header -->
+				<div class="modal-header">
+					<h4 class="modal-title">Modal Heading</h4>
+					<button type="button" class="close" data-dismiss="modal">&times;</button>
+					</div>
+
+					<!-- Modal body -->
+					<div class="modal-body">
+					Modal body..
+					</div>
+
+					<!-- Modal footer -->
+					<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+				</div>
+
 			</div>
-</div>
+		</div>
+	</div>
 
 
-<!-- JQ, Tether, Bootstrap -->
-<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+	<!-- JQ, Tether, Bootstrap -->
+	<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+	<script>
+
+
+	$("#btn-apply-form").click(function(){
+		$("#myModal").modal();
+	});
+
+	$.ajax({
+		method: 'POST',
+		url: 'http://avanade.gama.academy/api/process_applications',
+		dataType: 'json',
+		headers: { EMAIL: null }, // coloque seu email que usou para se inscrever aqui!
+		contentType: 'application/json',
+		data: JSON.stringify({ process_application: { name: $('#name').val(), email: $('#email').val() } }),
+		success: function(json) { 
+		// Código de successo!
+		},
+		error: function(jqXHR, textStatus, errorThrown) {
+		// Não esquece de tratar os erros
+		}
+	});
+	
+ 	</script>
+
+	
 
 </body>
 </html>
